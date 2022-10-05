@@ -13,7 +13,7 @@ const Detail = (props) => {
 
 Detail.propTypes = {
   title: PropTypes.string.isRequired,
-  value: PropTypes.number.isRequired,
+  value: PropTypes.number,
 };
 
 export default Detail;
